@@ -1,0 +1,336 @@
+body {
+			font:15px/1.5 arial, helvetica, sans-serif;
+			margin: 0;
+			padding: 0;
+			background: #0000;
+
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+
+
+
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*background: rgba(0, 0, 0, 0.5);*/
+	background-color: #0000;
+	background: #0000;
+	padding: 20px;
+	width: 270px;
+	box-shadow: 0 0 10px 5px black;
+}
+
+
+.avatar{
+	font-size: 50px;
+	background: #bdc3c7;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	color: #2c3e50;
+}
+
+.login h2{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+
+
+}
+
+
+.box-login{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 2px solid white;
+	padding: 8px 0;
+
+}
+.box-login i{
+	font-size: 20px;
+	color: white;
+}
+
+.box-login input{
+	width: 100%;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 18px;
+
+}
+.box-login input::placeholder{
+	color: white;
+}
+
+.btn-login{
+	width: 100%;
+	background: #bdc3c7;
+	/**/ 
+	padding: 10px;
+	border: 1px solid white;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	cursor: pointer;
+	transition: 0.3%;
+
+}
+
+.login:hover{
+	background: rgba(0, 0, 0, 0.8);
+}
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.buttom a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+ .buttom a:hover{
+ 	text-decoration: underline;
+ 	
+ }
+
+
+ .index h1{
+ 	text-align: center;
+	color: white;
+	padding-top: 20px;
+	letter-spacing: 5px;
+
+
+}
+
+.keluar{
+ 	text-align: center;
+ 	text-rendering: optimizeLegibility;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+	font-size: 70px;
+}
+
+.tambah h1{
+ 	text-align: center;
+	color: white;
+	padding-top: 20px;
+	letter-spacing: 5px;
+
+
+}
+
+
+
+.login h2{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+
+
+}
+
+		.bgatas {
+			width: auto;
+			height: 200px;
+			border: 0px solid;
+			background: linear-gradient(to right, #21a659 0%, #06d25c
+			100%);
+			text-align: center;
+			color: white;
+		}
+		.logon{
+			width: 10%;
+			height: auto;
+			margin-top: 20px;
+
+		}
+
+		.bgatas ul{
+			display: block;
+			margin-left: -50px;
+
+		}
+		.bgatas ul li{
+			list-style: none;
+			display: inline-block;
+			padding: 10px;
+
+		}
+		.bgatas ul li:hover{
+			border-bottom: 3px solid;
+		}
+		.aktif {
+			border-bottom:3px solid;	
+		}
+		.tengah {
+			width:70%;
+			height: 430px;
+			border:0px solid;
+			margin: 0 auto;
+			margin-top: 20px;
+			padding-left: 150px;
+
+		}
+		.kotak {
+			width: 40%;
+			height: 200px;
+			border:1px solid;
+			margin-top: 5px;
+			margin-left: 5px;
+			text-align: center;
+			background: #39fc8c;
+			border-radius: 10px;
+			color: white;
+			float: left;
+			margin-left: 12px;
+			margin-top: 12px;
+			
+		}
+		.gbrkotak {
+			width: 120px;
+			height: auto;
+			float: center;
+			margin-top: 40px;
+			margin-left: 5px;
+
+		}
+		.kotakteks{
+			width: 65%;
+			height: auto;
+			border:0px solid;
+			float: right;
+			margin-top: 40px;
+			margin-right: 5px;
+
+		}
+		.bawah{
+			width: auto;
+			height: 100px;
+			border: 0px solid;
+			background: #1b5c65;
+			color: white;
+
+		}
+		.sosmed li img{
+			width: 30px;
+			height: auto;
+			float: left;
+			overflow: hidden;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.sosmed li{
+			display: inline;
+			padding: 10px;
+
+		}
+		.sisikiri{
+			width: 300px;
+			height: 90%;
+			border: 1px solid;
+			float: left;
+			text-align: center;
+		}
+		.sosmed{
+			margin-left: 10px;
+		}
+		.sisikanan{
+			width: 200px;
+			height: 90%;
+			border: 1px solid;
+			float: right;
+		}
+
+
+
+
+		.indexlihat h1{
+			text-align: center;
+
+
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+
+		}
+
+		.indexlihat table{
+			border: 3px solid;
+			margin-left: 20px;
+		}
+
+		.tambah h1{
+			text-align: center;
+
+
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+		}
+
+		.tambah ul{
+			margin-top: 80;
+			width: 700px;
+			height: 320px;
+			border: 0px solid;
+			float: left;
+		}
+		.tambah ul li{
+
+			padding-top: 5px;
+			height: 50px;
+		}
+
+
+.jj{
+	margin-left: 20px;
+}
+
+.aa input{
+	
+	width: 400px;
+	height: 30px;
+	padding: 0 10px;
+	margin-left: 30px;
+	border: 0px solid;
+	color: black;
+	
+	font-size: 18px;
+
+
+}
+
+.aa label{
+
+	width: 400px;
+	font-size: 20px;
+	font-style: 20x;
+}
+
+.tomboltambah button{
+	font-size: 20px;
+	font-style: 20px;
+	width: 423px;
+	margin-left: 137px;
+
+}
